@@ -82,6 +82,26 @@ Step-by-step guides for every client, including ChatGPT: [thebridge.dev/docs/ai-
 
 Guided workflows cover the common journeys end to end: Add login, Add a paid plan, Add a feature flag, Add teams, Verify setup, What is wrong, and Go live.
 
+## Tools (76)
+
+Every tool is labeled read-only or destructive. Deletes (marked *) are off on browser-approved connections and need a typed confirmation when granted.
+
+**Get started and apps** (9): `get_server_info`, `get_started`, `list_apps`, `use_app`, `create_app`, `get_app`, `update_app`, `get_environment_info`, `get_integration_guide`
+
+**Login and sign-in** (10): `get_auth_config`, `update_auth_methods`, `setup_sso`, `update_password_policy`, `list_redirect_uris`, `add_redirect_uri`, `remove_redirect_uri`, `update_branding`, `get_branding`, `setup_communication`
+
+**Customer teams and users** (11): `list_tenants`, `get_tenant`, `create_tenant`, `update_tenant`, `delete_tenant`*, `list_users`, `get_user`, `invite_user`, `update_user`, `remove_user`*, `create_test_user`
+
+**Roles and privileges** (10): `list_roles`, `get_role`, `create_role`, `update_role`, `set_default_role`, `delete_role`*, `list_privileges`, `create_privilege`, `update_privilege`, `delete_privilege`*
+
+**Plans, billing and Stripe** (16): `list_plans`, `get_plan`, `create_plan`, `update_plan`, `apply_plan`, `set_plan_price`, `remove_plan_price`, `list_plan_quotas`, `set_plan_quota`, `remove_plan_quota`, `set_plan_features`, `add_plan_feature`, `remove_plan_feature`, `connect_stripe`, `setup_payments`, `get_stripe_status`
+
+**Feature flags** (12): `list_feature_flags`, `get_flag`, `create_feature_flag`, `update_feature_flag`, `toggle_feature_flag`, `set_flag_schedule`, `clear_flag_schedule`, `evaluate_feature_flag`, `export_feature_flags`, `import_feature_flags`, `delete_feature_flag`*, `scaffold_flags_integration`
+
+**Checks and debugging** (5): `get_setup_status`, `diagnose_integration`, `verify_login`, `debug_auth_issue`, `list_events`
+
+**API tokens** (3): `list_api_tokens`, `create_api_token`, `revoke_api_token`*
+
 ## Safety
 
 - You choose which apps a connection can reach when you approve it, and you can revoke it any time under **Keys** in the [dashboard](https://app.thebridge.dev/).
