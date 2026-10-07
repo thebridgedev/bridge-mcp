@@ -1,0 +1,11 @@
+{
+  "name": "the-bridge",
+  "version": "1.0.0",
+  "description": "Complete, hosted login, teams, billing and feature flags for your SaaS app. Gemini sets it all up for you.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "bridge": {
+      "httpUrl": "https://api.thebridge.dev/mcp"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "dev.thebridge/bridge",
+  "title": "The Bridge",
+  "description": "Auth, billing, plans, feature flags and roles for your SaaS, set up from your coding agent.",
+  "version": "1.0.0",
+  "websiteUrl": "https://thebridge.dev",
+  "icons": [
+    { "src": "https://thebridge.dev/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://api.thebridge.dev/mcp" }
+  ]
+}
