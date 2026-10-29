@@ -82,7 +82,7 @@ Step-by-step guides for every client, including ChatGPT: [thebridge.dev/docs/ai-
 
 Guided workflows cover the common journeys end to end: Add login, Add a paid plan, Add a feature flag, Add teams, Verify setup, What is wrong, and Go live.
 
-## Tools (76)
+## Tools (79)
 
 Every tool is labeled read-only or destructive. Deletes (marked *) are off on browser-approved connections and need a typed confirmation when granted.
 
@@ -94,7 +94,7 @@ Every tool is labeled read-only or destructive. Deletes (marked *) are off on br
 
 **Roles and privileges** (10): `list_roles`, `get_role`, `create_role`, `update_role`, `set_default_role`, `delete_role`*, `list_privileges`, `create_privilege`, `update_privilege`, `delete_privilege`*
 
-**Plans, billing and Stripe** (16): `list_plans`, `get_plan`, `create_plan`, `update_plan`, `apply_plan`, `set_plan_price`, `remove_plan_price`, `list_plan_quotas`, `set_plan_quota`, `remove_plan_quota`, `set_plan_features`, `add_plan_feature`, `remove_plan_feature`, `connect_stripe`, `setup_payments`, `get_stripe_status`
+**Plans, billing and Stripe** (19): `list_plans`, `get_plan`, `create_plan`, `update_plan`, `archive_plan`, `delete_plan`*, `apply_plan`, `set_tenant_plan`, `set_plan_price`, `remove_plan_price`, `list_plan_quotas`, `set_plan_quota`, `remove_plan_quota`, `set_plan_features`, `add_plan_feature`, `remove_plan_feature`, `connect_stripe`, `setup_payments`, `get_stripe_status`
 
 **Feature flags** (12): `list_feature_flags`, `get_flag`, `create_feature_flag`, `update_feature_flag`, `toggle_feature_flag`, `set_flag_schedule`, `clear_flag_schedule`, `evaluate_feature_flag`, `export_feature_flags`, `import_feature_flags`, `delete_feature_flag`*, `scaffold_flags_integration`
 
