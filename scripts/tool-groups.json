@@ -1,0 +1,128 @@
+[
+ {
+  "name": "Get started and apps",
+  "tools": [
+   "get_server_info",
+   "get_started",
+   "list_apps",
+   "use_app",
+   "create_app",
+   "get_app",
+   "update_app",
+   "get_environment_info",
+   "get_integration_guide"
+  ]
+ },
+ {
+  "name": "Login and sign-in",
+  "tools": [
+   "get_auth_config",
+   "update_auth_methods",
+   "setup_sso",
+   "update_password_policy",
+   "list_redirect_uris",
+   "add_redirect_uri",
+   "remove_redirect_uri",
+   "update_branding",
+   "get_branding",
+   "setup_communication"
+  ]
+ },
+ {
+  "name": "Customer teams and users",
+  "tools": [
+   "list_tenants",
+   "get_tenant",
+   "create_tenant",
+   "update_tenant",
+   "delete_tenant",
+   "list_users",
+   "get_user",
+   "invite_user",
+   "update_user",
+   "remove_user",
+   "create_test_user"
+  ]
+ },
+ {
+  "name": "Roles and privileges",
+  "tools": [
+   "list_roles",
+   "get_role",
+   "create_role",
+   "update_role",
+   "set_default_role",
+   "delete_role",
+   "list_privileges",
+   "create_privilege",
+   "update_privilege",
+   "delete_privilege"
+  ]
+ },
+ {
+  "name": "Plans, billing and Stripe",
+  "tools": [
+   "list_plans",
+   "get_plan",
+   "create_plan",
+   "update_plan",
+   "archive_plan",
+   "delete_plan",
+   "apply_plan",
+   "set_tenant_plan",
+   "set_plan_price",
+   "remove_plan_price",
+   "list_plan_quotas",
+   "set_plan_quota",
+   "remove_plan_quota",
+   "set_plan_features",
+   "add_plan_feature",
+   "remove_plan_feature",
+   "connect_stripe",
+   "setup_payments",
+   "get_stripe_status"
+  ]
+ },
+ {
+  "name": "Feature flags",
+  "tools": [
+   "list_feature_flags",
+   "get_flag",
+   "create_feature_flag",
+   "update_feature_flag",
+   "toggle_feature_flag",
+   "set_flag_schedule",
+   "clear_flag_schedule",
+   "evaluate_feature_flag",
+   "export_feature_flags",
+   "import_feature_flags",
+   "delete_feature_flag",
+   "scaffold_flags_integration"
+  ]
+ },
+ {
+  "name": "Checks and debugging",
+  "tools": [
+   "get_setup_status",
+   "diagnose_integration",
+   "verify_login",
+   "debug_auth_issue",
+   "list_events"
+  ]
+ },
+ {
+  "name": "API tokens",
+  "tools": [
+   "list_api_tokens",
+   "create_api_token",
+   "revoke_api_token"
+  ]
+ },
+ {
+  "name": "Tracking links",
+  "tools": [
+   "create_short_link",
+   "list_short_links"
+  ]
+ }
+]

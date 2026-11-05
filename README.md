@@ -82,6 +82,7 @@ Step-by-step guides for every client, including ChatGPT: [thebridge.dev/docs/ai-
 
 Guided workflows cover the common journeys end to end: Add login, Add a paid plan, Add a feature flag, Add teams, Verify setup, What is wrong, and Go live.
 
+<!-- tools:start (generated daily from the live server by .github/workflows/tools.yml; edit scripts/tool-groups.json to regroup) -->
 ## Tools (81)
 
 Every tool is labeled read-only or destructive. Deletes (marked *) are off on browser-approved connections and need a typed confirmation when granted.
@@ -103,6 +104,7 @@ Every tool is labeled read-only or destructive. Deletes (marked *) are off on br
 **API tokens** (3): `list_api_tokens`, `create_api_token`, `revoke_api_token`*
 
 **Tracking links** (2): `create_short_link`, `list_short_links`
+<!-- tools:end -->
 
 ## Safety
 
